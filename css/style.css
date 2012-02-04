@@ -5,83 +5,123 @@ body {
 }
 
 #wrapper {
-     margin: 0px auto;
-     width: 100%;
+     background-color: white;
+     border-radius: 15px 15px 15px 15px;
+     box-shadow: 0px 3px 10px #D4AAB7;
+     margin: 10px auto;
+     width: 825px;
 }
 
 #header {
-     background-color: #A600A6;
-     height: 125px;
+     background-color: #FFD573;
+     border-radius: 15px 15px 0px 0px;
+     height: 105px;
+     margin: 0px auto;
+     width: 825px;
 }
 
 #content {
+     border-color: #CCFFFF;
+     border-radius: 15px 15px 15px 15px;
+     border-style: solid;
+     border-width: 2px;
      font-family: Verdana,Arial,Helvetica,sans-serif;
      font-size: 18px;
-     margin: 0px auto;
+     margin: 13px auto 5px;
      min-height: 300px;
-     padding: 60px 10px 20px 10px;
+     padding: 30px 20px 20px;
      width: 750px;
 }
 
+#hrAfterSearch {
+     height: 1px;
+     margin: 30px 15px;
+}
+
+#jobArea, #jobSpecification, #jobSearchButton {
+     font-family: Verdana,Arial,Helvetica,sans-serif;
+     font-size: 13px;
+}
+
+#jobArea {
+     margin: 0px 25px 0px 10px;
+}
+
+#jobSpecification {
+    margin: 0px 25px 0px 0px;
+}
+
 #footer {
-     background-color: #D25FD2;
-     height: 50px;
-     padding: 15px;
+     background-color: #FFD573;
+     border-radius: 0px 0px 15px 15px;
      font-family: Verdana,Arial,Helvetica,sans-serif;
      font-size: small;
+     height: 50px;
+     margin: 1px auto 0px;
+     padding: 15px;
+     width: 795px;
 }
 
 .link {
      border-radius: 15px 15px 15px 15px;
      border-style: solid;
      font-family: 'Times New Roman',Times,serif;
-     font-size: 30px;
+     font-size: 20px;
      font-weight: bold;
      padding: 4px 25px 4px 27px;
      text-align: center;
 }
 
 #searchLink {
-     left: 240px;
+     left: 280px;
      position: absolute;
-     top: 90px;
+     top: 85px;
 }
 
 #insertLink {
-     left: 400px;
+     left: 420px;
      position: absolute;
-     top: 90px;
+     top: 85px;
 }
 
 #adviseLink {
-     left: 600px;
+     left: 590px;
      position: absolute;
-     top: 90px;
+     top: 85px;
 }
 
 #contactLink {
-     left: 865px;
+     left: 780px;
      position: absolute;
-     top: 90px;
+     top: 85px;
 }
 
-.link:link {
-     color: black;
-     text-decoration: none;
+#logo {
+     background-color: transparent;
+     border-radius: 0px 0px 0px 0px;
+     border-style: none;
+     color: #132671;
+     font-size: 45px;
+     left: -3px;
+     position: absolute;
+     top: 18px;
 }
 
-.link:active {
-     color: black;
-     text-decoration: none;
+#logo_pic {
+     height: 250px;
+     opacity: 0.6;
+     position: absolute;
+     right: 80px;
+     top: 170px;
 }
 
-.link:visited {
+.link:link, .link.active, .link.visited {
      color: black;
      text-decoration: none;
 }
 
 .link:hover {
-     background-color: #DAFB3F;
+     background-color: #FFC640;
      text-decoration: none;
 }
 
@@ -90,5 +130,9 @@ body {
 }
 
 .active {
-    background-color: #DAFB3F
+     background-color: #FFC640;
 }
+
+
+
+/* FFA500 */
