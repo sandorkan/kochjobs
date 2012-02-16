@@ -1,4 +1,26 @@
-<div id="suchen" title="suchen">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js" type="text/javascript"></script>
+        <script src="scripts/utils.js"></script>
+        <script src="scripts/kochjobs.js"></script>
+    </head>
+    <body>
+        
+        <div id="wrapper">
+            <div id="header">
+                <img src="../web/images/chef.png" id="logo_pic">
+                <a href="javascript:void(0)" id="logo" class="link inactive">kochjobs.ch</a>
+                <a href="javascript:void(0)" id="searchLink" class="link active" title="suchen">Suchen</a>
+                <a href="javascript:void(0)" id="insertLink" class="link inactive" title="inserieren">Inserieren</a>
+                <a href="javascript:void(0)" id="adviseLink" class="link inactive" title="ratgeber">Ratgeber</a>
+                <a href="javascript:void(0)" id="contactLink" class="link inactive" title="kontakt">Kontakt</a>
+            </div>
+            <div id="content">
+            <div id="suchen" title="suchen">
                 <table id="jobSearchTable" title="jobSearchTable">
                     <tr>
                         <td>
@@ -55,4 +77,10 @@
                         
                     </ul>
                 </div>
-            
+            </div>
+            <div id="footer">
+                Footer
+            </div>
+        </div>
+    </body>
+</html>
