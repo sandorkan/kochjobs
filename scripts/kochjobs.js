@@ -1,5 +1,7 @@
 window.onload = init;
 
+$(".iframe").fancybox();
+
 //eventhandler zuweisen
 function init(){
     
@@ -13,6 +15,8 @@ function init(){
     }
 
     $("#jobSearchButton").click(getJobsAjax);
+    
+    $(".iframe").fancybox();
 }
 
 function getJobsAjax() {
@@ -29,7 +33,9 @@ function getJobsAjax() {
 }
 
 function displayJobs(data){
-                  
+    
+    $.getScript("scripts/kochjobs.js");              
+    
     var jobArray = JSON.parse(data);
          
     $("#searchResults").html(jobArray.length);
@@ -39,7 +45,7 @@ function displayJobs(data){
     
     for(var i = 0; i < jobArray.length; i++){
         var li = document.createElement("li");
-        li.innerHTML = jobArray[i].titel + "<br>" + jobArray[i].aufgaben;
+        li.innerHTML = "<a class='iframe' href='job_bsp.html'>" +jobArray[i].titel + "</a>" + "<br>" + jobArray[i].aufgaben;
         ulJobList.appendChild(li);
     }     
 }
@@ -88,6 +94,8 @@ function getContent(){
         if(searchLink.className == "link active") {
            window.location.href=window.location.href; 
         }
+        
+        $.getScript("scripts/kochjobs.js");
            
     }
 }

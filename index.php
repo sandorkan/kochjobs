@@ -5,6 +5,12 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js" type="text/javascript"></script>
+        
+        <!-- Fancybox -->
+        <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+        <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+        
+        <!-- Eigene JS Dateien -->
         <script src="scripts/utils.js"></script>
         <script src="scripts/kochjobs.js"></script>
     </head>

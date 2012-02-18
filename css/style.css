@@ -51,6 +51,16 @@ body {
     margin: 0px 25px 0px 0px;
 }
 
+.ratgeber_box {
+     border-color: #CCFFFF;
+     border-radius: 15px 15px 15px 15px;
+     border-style: solid;
+     border-width: 2px;
+     margin: 13px 10px 5px;
+     padding: 10px 20px;
+     width: 250px;
+}
+
 #footer {
      background-color: #FFD573;
      border-radius: 0px 0px 15px 15px;
